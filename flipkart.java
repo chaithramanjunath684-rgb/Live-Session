@@ -31,7 +31,6 @@ public class flipkart {
 	        searchBox.sendKeys(Keys.ENTER);
 
 	        System.out.println("Search performed");
-	        driver.quit();
-	}
+	       	}
 
 }

@@ -15,7 +15,7 @@ public class flipkart {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		  WebDriver driver = new ChromeDriver();
-	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
 	        driver.get("https://www.flipkart.com");
 	        driver.manage().window().maximize();

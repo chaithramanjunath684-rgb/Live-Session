@@ -15,10 +15,10 @@ public class window {
        driver.get("https://www.google.com");
        String tab1 = driver.getWindowHandle();
        driver.switchTo().newWindow(WindowType.TAB);
-       driver.get("https://www.selenium.dev");
+       driverhttps://www.facebook.com.get("https://www.selenium.dev");
        String tab2=driver.getWindowHandle();
        driver.switchTo().newWindow(WindowType.TAB);
-       driver.get("https://www.facebook.com");
+       driver.get("");
        String tab3=driver.getWindowHandle();
        
        //driver.switchTo().window(tab1);
